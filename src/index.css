@@ -1,0 +1,23 @@
+body{
+  background: rgb(0, 0, 0);
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+.card {
+  background: rgb(237, 237, 237);
+  border-radius: 12px;
+  padding: 20px;
+  border: 5px solid white ;
+}
+.navbar-collapse {
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link {
+  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateX(4px);
+}

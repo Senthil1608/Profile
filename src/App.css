@@ -1,0 +1,57 @@
+body{
+ background-color: rgb(0, 0, 0);
+}
+.skill-icon {
+  transition: transform 0.3s ease;
+}
+.card:hover .skill-icon {
+  transform: scale(1.1);
+}
+.hover-scale:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.card:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.about-modern-section {
+  min-height: 100vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.text-accent {
+  color: #00c9a7;
+}
+
+.btn-modern {
+  background-color: #00c9a7;
+  color: #fff;
+  padding: 10px 24px;
+  font-weight: 500;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.btn-modern:hover {
+  background-color: #00b09b;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .about-modern-section .row {
+    text-align: center;
+  }
+
+  .about-modern-section img {
+    margin-bottom: 20px;
+  }
+}
