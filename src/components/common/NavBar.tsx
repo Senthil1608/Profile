@@ -16,7 +16,7 @@ function NavBar() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark nav-color shadow-sm px-3 py-2 border border-warning m-2 ">
+      <nav className="navbar navbar-expand-lg navbar-dark nav-color shadow-sm px-3 py-2 border border-info m-2 ">
         <a className="navbar-brand fw-bold d-flex align-items-center nav-brand" href="/">
           <i className="bi bi-person-circle me-2 fs-4"></i>
           P S Senthil Srinivas
